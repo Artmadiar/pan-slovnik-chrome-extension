@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Slovnik",
+  "description": "Translate czech words!",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery-3.1.1.min.js", "jquery.modal.min.js", "main.js"],
+      "css": ["jquery.modal.min.css", "style.css"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}

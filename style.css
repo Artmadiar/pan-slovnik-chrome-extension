@@ -1,0 +1,4 @@
+#slovnikExtension span.wordExtension:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
