@@ -1,6 +1,6 @@
 {
-  "manifest_version": 2,
-  "name": "Slovnik",
+  "manifest_version": 3,
+  "name": "Pan Slovnik",
   "description": "Translate czech words!",
   "version": "1.0",
   "browser_action": {
@@ -10,8 +10,8 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["jquery-3.1.1.min.js", "jquery.modal.min.js", "main.js"],
-      "css": ["jquery.modal.min.css", "style.css"]
+      "js": ["jquery-3.1.1.min.js", "main.js"],
+      "css": ["style.css"]
     }
   ],
   "permissions": [

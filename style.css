@@ -1,4 +1,42 @@
-#slovnikExtension span.wordExtension:hover {
+.panslovnik_form span.wordExtension:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+#panslovnik_form {
+  opacity: 1 !important;
+  position: absolute !important;
+  background: #fff !important;
+  border: solid 1px #ccc !important;
+  padding: 7px 0 0 !important;
+  width: 300px !important;
+  display: block !important;
+  z-index: 999999999 !important;
+  box-shadow: 8px 16px 30px rgba(0, 0, 0, 0.16) !important;
+  border-radius: 3px !important;  
+  color: #000 !important;
+  font: normal 13px Arial, Helvetica !important;
+  line-height: 15px !important;
+  margin: 0 !important;
+  vertical-align: baseline !important;
+  overflow: visible !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  float: none !important;
+  visibility: visible !important;
+  text-align: left !important;
+  text-transform: none !important;
+  border-collapse: separate !important;
+  border-spacing: 2px !important;
+  box-sizing: content-box !important;
+  text-shadow: none !important;
+  letter-spacing: normal !important;
+  filter: none !important;
+}
+
+#panslovnik_form #text {
+  padding-top: 5px;
+  padding-left: 15px;
+  font: bold 16px Arial, Helvetica !important;  
 }
